@@ -4,6 +4,7 @@ import Homepage from './Components/Pages/Home';
 import Projectpage from './Components/Pages/Projects';
 import NewsSite from './Components/Pages/NewSite';
 import TheKEMBITTimes from './Components/Pages/TheKEMBITTimes';
+import ExtraBewijsstukken from './Components/Pages/ExtraBewijsstukken';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/projects" element={<Projectpage />} />
         <Route path="/projects/NewsSite" element={<NewsSite />} />
         <Route path="/projects/TheKEMBITTimes" element={<TheKEMBITTimes />} />
+        <Route path="/projects/ExtraBewijsstukken" element={<ExtraBewijsstukken />} />
       </Routes>
     </Router>
     </>

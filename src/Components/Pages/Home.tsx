@@ -92,7 +92,20 @@ function Homepage() {
             </div>
           </Link>
 
-
+          {/* EXTRA */}
+          <Link to="/projects/ExtraBewijsstukken" className="block">
+            <div className="bg-white rounded-3xl shadow-xl p-10 hover:-translate-y-2 transition cursor-pointer">
+              <h3 className="text-3xl font-semibold mb-4">
+                Extra bewijsstukken
+              </h3>
+              <p className="text-gray-600 text-lg mb-8">
+                Hier zijn een paar extra bewijsstukken!
+              </p>
+              <button className="px-8 py-3 bg-gray-900 text-white rounded-xl hover:bg-gray-800">
+                Bekijk bewijsstukken
+              </button>
+            </div>
+          </Link>
         </div>
       </section>
 
