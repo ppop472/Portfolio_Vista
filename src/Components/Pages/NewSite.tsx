@@ -254,7 +254,7 @@ export default function NewsSite() {
                             <video
                                 controls
                                 className="w-full rounded-xl"
-                                src={`${process.env.PUBLIC_URL}/Proof/NewsSite/K2-W2/Deeloplevering.mov`}
+                                src={`${process.env.PUBLIC_URL}/Proof/NewsSite/K2-W2/Deeloplevering.mp4`}
                             />
                         </div>
                     </div>
