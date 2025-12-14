@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: portfolio-vista
+    env: node
+    plan: free
+    branch: main
+    buildCommand: npm install && npm run build
+    startCommand: npx serve -s build
+    autoDeploy: true
