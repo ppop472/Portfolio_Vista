@@ -349,7 +349,6 @@ export default function TheKEMBITTimes() {
                 <div className="mt-16 border-b border-gray-300"></div>
             </section>
 
-
             {/* B1-K2-W3 */}
             <section className="max-w-6xl mx-auto mb-16">
                 <h2 className="text-2xl font-semibold mb-6">B1-K2-W3</h2>
