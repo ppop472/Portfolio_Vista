@@ -250,17 +250,7 @@ export default function NewsSite() {
                             ))}
                         </div>
                     </div>
-
-                    {/* Video */}
-                    <div className="bg-white rounded-2xl shadow p-6">
-                        <h3 className="font-semibold mb-2">Interview</h3>
-                        <video
-                            controls
-                            className="w-full rounded-xl"
-                            src={`${process.env.PUBLIC_URL}/Proof/NewsSite/K2-W1/Interview.mp4`}
-                        />
-                    </div>
-
+                    
                 </div>
                 <div className="mt-16 border-b border-gray-300"></div>
             </section>

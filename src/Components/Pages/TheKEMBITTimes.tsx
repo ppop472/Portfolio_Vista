@@ -71,7 +71,7 @@ export default function TheKEMBITTimes() {
                             Open volledige PDF
                         </a>
                     </div>
-                     {/* Images 1 */}
+                    {/* Images 1 */}
                     <div className="bg-white rounded-2xl shadow p-6">
                         <h3 className="font-semibold mb-2">Afbeeldingen</h3>
                         <div className="grid grid-cols-2 gap-2">
@@ -206,6 +206,25 @@ export default function TheKEMBITTimes() {
                     <div className="bg-white rounded-2xl shadow p-4">
                         {/* Video */}
                         <div className="bg-white rounded-2xl shadow p-6">
+                            <h3 className="font-semibold mb-2">Interview</h3>
+                            <video
+                                controls
+                                className="w-full rounded-xl"
+                                src={`${process.env.PUBLIC_URL}/Proof/TheKEMBITTimes/K2-W1/Interview.mp4`}
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div className="mt-16 border-b border-gray-300"></div>
+            </section>
+
+            {/* B1-K2-W2 */}
+            <section className="max-w-6xl mx-auto mb-16">
+                <h2 className="text-2xl font-semibold mb-6">B1-K2-W2</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div className="bg-white rounded-2xl shadow p-4">
+                        {/* Video */}
+                        <div className="bg-white rounded-2xl shadow p-6">
                             <h3 className="font-semibold mb-2">Deeloplevering</h3>
                             <video
                                 controls
@@ -242,7 +261,7 @@ export default function TheKEMBITTimes() {
                 </div>
                 <div className="mt-16 border-b border-gray-300"></div>
             </section>
-            
+
             {/* Fullscreen overlay */}
             {isFull && fullImage && (
                 <div
