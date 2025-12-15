@@ -77,7 +77,7 @@ function Homepage() {
 
 
           {/* PROJECT 2 */}
-          <Link to="/projects/TheKEMBBITTimes" className="block">
+          <Link to="/projects/TheKEMBITTimes" className="block">
             <div className="bg-white rounded-3xl shadow-xl p-10 hover:-translate-y-2 transition cursor-pointer">
               <h3 className="text-3xl font-semibold mb-4">
                 The KEMBIT Times

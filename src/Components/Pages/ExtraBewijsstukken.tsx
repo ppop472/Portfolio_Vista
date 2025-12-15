@@ -6,16 +6,16 @@ export default function ExtraBewijsstukken() {
     const [fullImage, setFullImage] = useState<string | null>(null);
 
     // Images for B1-K2-W2
+
     const b1k2w2Images1 = [
-        "/Proof/LOOI/K2-W2/LOOI oplever bewijs mail1.PNG",
-        "/Proof/LOOI/K2-W2/LOOI oplever bewijs mail2.PNG",
-        "/Proof/LOOI/K2-W2/Deeloplever LOOI mail 3.PNG",
-        "/Proof/LOOI/K2-W2/Deeloplever LOOI mail 4.PNG",
+        "/Proof/ExtraBewijsstukken/K2-W2/LOOIoplever.jpeg",
     ];
 
     const b1k2w2Images2 = [
-        "/Proof/LOOI/K2-W2/LOOI.jpeg",
-        "/Proof/LOOI/K2-W2/POSTER.PNG",
+        "/Proof/ExtraBewijsstukken/K2-W2/LOOI oplever bewijs mail1.PNG",
+        "/Proof/ExtraBewijsstukken/K2-W2/LOOI oplever bewijs mail2.PNG",
+        "/Proof/ExtraBewijsstukken/K2-W2/Deeloplever LOOI mail 3.PNG",
+        "/Proof/ExtraBewijsstukken/K2-W2/Deeloplever LOOI mail 4.PNG",
     ];
 
     // Scroll to top on load
@@ -85,7 +85,6 @@ export default function ExtraBewijsstukken() {
                             ))}
                         </div>
                     </div>
-
                 </div>
                 <div className="mt-16 border-b border-gray-300"></div>
             </section>

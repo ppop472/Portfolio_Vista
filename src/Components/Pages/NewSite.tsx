@@ -5,6 +5,13 @@ export default function NewsSite() {
     const [isFull, setIsFull] = useState(false);
     const [fullImage, setFullImage] = useState<string | null>(null);
 
+
+    // Images for B1-K1-W1
+    const b1k1w1Images1 = [
+        "/Proof/NewsSite/K1-W1/TrelloImg1.png",
+        "/Proof/NewsSite/K1-W1/TrelloImg2.png",
+    ];
+
     // Images for B1-K2-W1
     const b1k2w1Images1 = [
         "/Proof/NewsSite/K2-W1/Mike Feedback.png",
@@ -50,18 +57,42 @@ export default function NewsSite() {
                     <div className="bg-white rounded-2xl shadow p-4">
                         <h3 className="font-semibold mb-2">PDF</h3>
                         <iframe
-                            src={`${process.env.PUBLIC_URL}/Proof/NewsSite/K1-W1/Behoefteanalyse Kembit Times v1.0.pdf`}
+                            src={`${process.env.PUBLIC_URL}/Proof/NewsSite/K1-W1/Behoefteanalyse NewsSite v1.0.pdf`}
                             width="100%"
                             className="rounded-xl border h-64 md:h-96"
                             title="PDF Preview B1-K1-W1"
                         />
                         <a
-                            href={`${process.env.PUBLIC_URL}/Proof/NewsSite/K1-W1/Behoefteanalyse Kembit Times v1.0.pdf`}
+                            href={`${process.env.PUBLIC_URL}/Proof/NewsSite/K1-W1/Behoefteanalyse NewsSite v1.0.pdf`}
                             target="_blank"
                             className="text-blue-600 underline block mt-2"
                         >
                             Open volledige PDF
                         </a>
+                    </div>
+                    {/* Images 1 */}
+                    <div className="bg-white rounded-2xl shadow p-6">
+                        <h3 className="font-semibold mb-2">Afbeeldingen</h3>
+                        <div className="grid grid-cols-2 gap-2">
+                            {b1k1w1Images1.map((img, idx) => (
+                                <img
+                                    key={idx}
+                                    src={img}
+                                    alt={`B1-K2-W1-${idx + 1}`}
+                                    className="h-24 w-full object-cover rounded cursor-pointer"
+                                    onClick={() => {
+                                        setFullImage(img);
+                                        setIsFull(true);
+                                    }}
+                                />
+                            ))}
+                        </div>
+                    </div>
+
+                    {/* Links */}
+                    <div className="bg-white rounded-2xl shadow p-6">
+                        <h3 className="font-semibold mb-2">Trello Link</h3>
+                        <h1><a className="text-blue-400 underline" target="_blank" href="https://trello.com/b/wXNOVcTn/kembit">Trello</a></h1>
                     </div>
                 </div>
                 <div className="mt-16 border-b border-gray-300"></div>
@@ -172,6 +203,7 @@ export default function NewsSite() {
                             ))}
                         </div>
                     </div>
+
                 </div>
                 <div className="mt-16 border-b border-gray-300"></div>
             </section>
@@ -198,6 +230,7 @@ export default function NewsSite() {
                             Open volledige PDF
                         </a>
                     </div>
+
 
                     {/* Images 1 */}
                     <div className="bg-white rounded-2xl shadow p-6">
@@ -228,44 +261,13 @@ export default function NewsSite() {
                         />
                     </div>
 
-                    {/* Audio */}
-                    <div className="bg-white rounded-2xl shadow p-6">
-                        <h3 className="font-semibold mb-2">Audio</h3>
-                        <audio
-                            controls
-                            className="w-full"
-                            src={`${process.env.PUBLIC_URL}/Proof/NewsSite/K2-W1/sample-audio.mp3`}
-                        />
-                    </div>
-
                 </div>
                 <div className="mt-16 border-b border-gray-300"></div>
             </section>
-
-
-            {/* B1-K2-W2 */}
-            <section className="max-w-6xl mx-auto mb-16">
-                <h2 className="text-2xl font-semibold mb-6">B1-K2-W2</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div className="bg-white rounded-2xl shadow p-4">
-                        {/* Video */}
-                        <div className="bg-white rounded-2xl shadow p-6">
-                            <h3 className="font-semibold mb-2">Deeloplevering</h3>
-                            <video
-                                controls
-                                className="w-full rounded-xl"
-                                src={`${process.env.PUBLIC_URL}/Proof/NewsSite/K2-W2/Deeloplevering.mp4`}
-                            />
-                        </div>
-                    </div>
-                </div>
-                <div className="mt-16 border-b border-gray-300"></div>
-            </section>
-
 
             {/* B1-K2-W3 */}
             <section className="max-w-6xl mx-auto mb-16">
-                <h2 className="text-2xl font-semibold mb-6">B1-K2-W2</h2>
+                <h2 className="text-2xl font-semibold mb-6">B1-K2-W3</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div className="bg-white rounded-2xl shadow p-4">
                         <h3 className="font-semibold mb-2">Reflectieverslag</h3>
@@ -286,7 +288,7 @@ export default function NewsSite() {
                 </div>
                 <div className="mt-16 border-b border-gray-300"></div>
             </section>
-            
+
             {/* Fullscreen overlay */}
             {isFull && fullImage && (
                 <div
