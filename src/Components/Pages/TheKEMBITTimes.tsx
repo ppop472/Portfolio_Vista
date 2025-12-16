@@ -15,33 +15,33 @@ export default function TheKEMBITTimes() {
     ];
 
 
-    // Images for B1-K1-W1
+    // Images for B1-K1-W3
     const b1k1w3Images1 = [
-        "/Proof/TheKEMBITTimes/K1-W3/Img1.png",
-        "/Proof/TheKEMBITTimes/K1-W3/Img2.png",
-        "/Proof/TheKEMBITTimes/K1-W3/Img3.png",
-        "/Proof/TheKEMBITTimes/K1-W3/Img4.png",
-        "/Proof/TheKEMBITTimes/K1-W3/Img5.png",
-        "/Proof/TheKEMBITTimes/K1-W3/Img6.png",
-        "/Proof/TheKEMBITTimes/K1-W3/Img7.png",
-        "/Proof/TheKEMBITTimes/K1-W3/Img8.png",
+        "/Proof/TheKEMBITTimes/K1-W3/Img1.PNG",
+        "/Proof/TheKEMBITTimes/K1-W3/Img2.PNG",
+        "/Proof/TheKEMBITTimes/K1-W3/Img3.PNG",
+        "/Proof/TheKEMBITTimes/K1-W3/Img4.PNG",
+        "/Proof/TheKEMBITTimes/K1-W3/Img5.PNG",
+        "/Proof/TheKEMBITTimes/K1-W3/Img6.PNG",
+        "/Proof/TheKEMBITTimes/K1-W3/Img7.PNG",
+        "/Proof/TheKEMBITTimes/K1-W3/Img8.PNG",
     ];
 
     const b1k1w3Images2 = [
-        "/Proof/TheKEMBITTimes/K1-W3/Img9.png",
-        "/Proof/TheKEMBITTimes/K1-W3/Img10.png",
-        "/Proof/TheKEMBITTimes/K1-W3/Img11.png",
-        "/Proof/TheKEMBITTimes/K1-W3/Img12.png",
-        "/Proof/TheKEMBITTimes/K1-W3/Img13.png",
-        "/Proof/TheKEMBITTimes/K1-W3/Img14.png",
-        "/Proof/TheKEMBITTimes/K1-W3/Img15.png",
-        "/Proof/TheKEMBITTimes/K1-W3/Img16.png",
+        "/Proof/TheKEMBITTimes/K1-W3/Img9.PNG",
+        "/Proof/TheKEMBITTimes/K1-W3/Img10.PNG",
+        "/Proof/TheKEMBITTimes/K1-W3/Img11.PNG",
+        "/Proof/TheKEMBITTimes/K1-W3/Img12.PNG",
+        "/Proof/TheKEMBITTimes/K1-W3/Img13.PNG",
+        "/Proof/TheKEMBITTimes/K1-W3/Img14.PNG",
+        "/Proof/TheKEMBITTimes/K1-W3/Img15.PNG",
+        "/Proof/TheKEMBITTimes/K1-W3/Img16.PNG",
     ];
 
     const b1k1w3Images3 = [
         "/Proof/TheKEMBITTimes/K1-W3/GitKrakenPic1.png",
         "/Proof/TheKEMBITTimes/K1-W3/GitKrakenPic2.png",
-        "/Proof/TheKEMBITTimes/K1-W3/GithubImg1.png",
+        "/Proof/TheKEMBITTimes/K1-W3/GithubImg1.PNG",
     ];
 
     useEffect(() => {
@@ -186,7 +186,7 @@ export default function TheKEMBITTimes() {
                                 <img
                                     key={idx}
                                     src={img}
-                                    alt={`B1-K2-W1-${idx + 1}`}
+                                    alt={`B1-K1-W3-${idx + 1}`}
                                     className="h-24 w-full object-cover rounded cursor-pointer"
                                     onClick={() => {
                                         setFullImage(img);
