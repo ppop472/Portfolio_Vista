@@ -234,6 +234,32 @@ export default function TheKEMBITTimes() {
                             ))}
                         </div>
                     </div>
+                    <div className="bg-white rounded-2xl shadow p-4">
+                        {/* Video */}
+                        <div className="bg-white rounded-2xl shadow p-6">
+                            <h3 className="font-semibold mb-2">Opname</h3>
+                            <p>Deze opnames zijn later toegevoegd omdat de bestanden te groot waren en de upload naar GitHub destijds faalde. Achteraf gezien heb ik ze toegevoegd, met akkoord van de docent.</p>
+                            <br />
+                            <video
+                                controls
+                                className="w-full rounded-xl"
+                                src={`${process.env.PUBLIC_URL}/Proof/TheKEMBITTimes/K1-W3/The KEMBIT Times 1.mp4`}
+                            />
+                        </div>
+                    </div>
+                    <div className="bg-white rounded-2xl shadow p-4">
+                        {/* Video */}
+                        <div className="bg-white rounded-2xl shadow p-6">
+                            <h3 className="font-semibold mb-2">Opname</h3>  
+                            <p>Deze opnames zijn later toegevoegd omdat de bestanden te groot waren en de upload naar GitHub destijds faalde. Achteraf gezien heb ik ze toegevoegd, met akkoord van de docent.</p>
+                            <br />
+                            <video
+                                controls
+                                className="w-full rounded-xl"
+                                src={`${process.env.PUBLIC_URL}/Proof/TheKEMBITTimes/K1-W3/The KEMBIT Times 2.mp4`}
+                            />
+                        </div>
+                    </div>
                 </div>
                 <div className="mt-16 border-b border-gray-300"></div>
             </section>
